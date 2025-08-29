@@ -21,9 +21,4 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-W2019
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="lykanltezc-user 10 QP1A.190711.020 W2019ZCU2CUK1 release-keys"
-
-BUILD_FINGERPRINT := samsung/lykanltezc/lykanltechn:10/QP1A.190711.020/W2019ZCU2CUK1:user/release-keys
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
