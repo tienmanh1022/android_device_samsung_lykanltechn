@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from lykanltechn device
 $(call inherit-product, device/samsung/lykanltechn/device.mk)
 
 PRODUCT_DEVICE := lykanltechn
-PRODUCT_NAME := omni_lykanltechn
+PRODUCT_NAME := twrp_lykanltechn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-W2019
 PRODUCT_MANUFACTURER := samsung
